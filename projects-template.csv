@@ -1,0 +1,2 @@
+id,title,category,description,cover_image,images,status,featured,sort_order
+example-001,Example Bedroom,Bedroom Design,Replace with your actual completed project description,https://res.cloudinary.com/YOUR_CLOUD/image/upload/YOUR_IMAGE.jpg,https://res.cloudinary.com/YOUR_CLOUD/image/upload/YOUR_IMAGE.jpg,Draft,No,1
