@@ -7,7 +7,7 @@ function cloudinaryUrl(value: unknown): string {
   if (typeof value !== "string" || !value.trim()) return ""
   try {
     const url = new URL(value.trim())
-    return url.protocol === "https:" && url.hostname === "res.cloudinary.com" && url.pathname.startsWith("/image/upload/") ? url.href : ""
+    return url.protocol === "https:" && url.hostname === "res.cloudinary.com" && /^\/[^/]+\/image\/upload\/.+/.test(url.pathname) ? url.href : ""
   } catch { return "" }
 }
 
