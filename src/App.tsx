@@ -145,7 +145,7 @@ function Header({ page }: { page: Page }) {
     <header>
       <a className="logo" href="#/" aria-label="Riaz Interiors Homepage">
         <img
-          src="/riaz-interiors-website-logo.png"
+          src="/riaz-interiors-website-logo-transparent.png"
           alt="Riaz Interiors"
           className="headerLogo"
         />
