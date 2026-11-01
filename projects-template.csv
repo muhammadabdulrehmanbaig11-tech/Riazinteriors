@@ -1,2 +1,2 @@
-id,title,category,description,cover_image,images,status,featured,sort_order
-example-001,Example Bedroom,Bedroom Design,Replace with your actual completed project description,https://res.cloudinary.com/YOUR_CLOUD/image/upload/YOUR_IMAGE.jpg,https://res.cloudinary.com/YOUR_CLOUD/image/upload/YOUR_IMAGE.jpg,Draft,No,1
+id,title,category,description,image,images,status,featured,sort_order
+1,Luxury Living Room,Living Room,Modern luxury interior design,https://res.cloudinary.com/YOUR_CLOUD/image/upload/your_photo.jpg,,Draft,TRUE,1
