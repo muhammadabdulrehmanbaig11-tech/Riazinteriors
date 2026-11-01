@@ -143,9 +143,12 @@ function Header({ page }: { page: Page }) {
   ]
   return (
     <header>
-      <a className="logo" href="#/">
-        <b>RIAZ</b>
-        <small>INTERIORS</small>
+      <a className="logo" href="#/" aria-label="Riaz Interiors Homepage">
+        <img
+          src="/riaz-interiors-website-logo.png"
+          alt="Riaz Interiors"
+          className="headerLogo"
+        />
       </a>
       <nav className={open ? "open" : ""}>
         {links.map(([l, p]) => (
@@ -177,9 +180,12 @@ function Footer() {
     <footer>
       <div className="footGrid">
         <div>
-          <a className="logo pale" href="#/">
-            <b>RIAZ</b>
-            <small>INTERIORS</small>
+          <a className="footerLogoLink" href="#/" aria-label="Riaz Interiors Homepage">
+            <img
+              src="/riaz-interiors-full-logo.png"
+              alt="Riaz Interiors"
+              className="footerLogo"
+            />
           </a>
           <h3>
             YOUR HOME.
